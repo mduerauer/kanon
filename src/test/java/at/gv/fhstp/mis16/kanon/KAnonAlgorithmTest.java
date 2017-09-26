@@ -1,19 +1,12 @@
 package at.gv.fhstp.mis16.kanon;
 
 import at.gv.fhstp.mis16.kanon.algorithm.KAnonAlgorithm;
-import at.gv.fhstp.mis16.kanon.config.ApplicationConfig;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Import;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.fail;
 
 /**
  * This file is part of kanon.

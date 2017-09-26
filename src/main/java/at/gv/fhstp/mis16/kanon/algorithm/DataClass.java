@@ -1,7 +1,5 @@
 package at.gv.fhstp.mis16.kanon.algorithm;
 
-import javafx.scene.input.DataFormat;
-
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
