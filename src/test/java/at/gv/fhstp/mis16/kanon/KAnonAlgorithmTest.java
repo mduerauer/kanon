@@ -66,6 +66,13 @@ public class KAnonAlgorithmTest {
     }
 
     @Test
+    public void shouldExecuteWithK8OnTable2() {
+        assertNotNull(algorithm);
+        boolean result = algorithm.executeOn(TestData.TABLE2, 8);
+        assertTrue(result);
+    }
+
+    @Test
     public void shouldFailWithK10OnTable2() {
         assertNotNull(algorithm);
         boolean result = algorithm.executeOn(TestData.TABLE2, 10);

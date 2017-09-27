@@ -51,9 +51,9 @@ public class KAnonAlgorithm {
 
     public static int PRIO_FEW_TEXT_VALS = 99;
 
-    public static int PRIO_NUMERIC = 1;
+    public static int PRIO_NUMERIC = 5;
 
-    public static int PRIO_DATE = 5;
+    public static int PRIO_DATE = 1;
 
     public static int MAX_NUMERIC_RUNS = 10;
 
@@ -82,13 +82,12 @@ public class KAnonAlgorithm {
             try {
 
                 loop++;
-                log.debug("--------------------------- LOOP {} ---------------------------", loop);
+                log.debug("--------------------------- << LOOP {} >> ---------------------------", loop);
 
                 Map<String, Integer> hashes = new HashMap<>();
                 List<Map<String, List<Integer>>> index = new ArrayList<>();
 
                 indexData(result, index);
-
                 calcHashes(result, hashes);
 
                 int gMin = k;

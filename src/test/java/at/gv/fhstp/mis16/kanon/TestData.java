@@ -37,7 +37,7 @@ public final class TestData {
 
     public static final String[][] TABLE1 = {
             {"01.01.2001", "1001", "m", "Catholic"},
-            {"01.01.2001", "1001", "m", "Jew"},
+            {"01.01.2001", "1002", "m", "Jew"},
             {"03.01.2001", "1003", "m", "Moslem"},
             {"04.01.2001", "1004", "w", "Catholic"},
             {"01.02.2001", "2001", "m", "Catholic"},
